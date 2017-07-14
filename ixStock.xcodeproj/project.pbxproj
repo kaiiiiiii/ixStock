@@ -14,6 +14,11 @@
 		2A8BC6C51F13D287000CF19F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A8BC6C31F13D287000CF19F /* LaunchScreen.storyboard */; };
 		2A8BC6D01F13D288000CF19F /* ixStockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8BC6CF1F13D288000CF19F /* ixStockTests.swift */; };
 		2A8BC6DB1F13D288000CF19F /* ixStockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A8BC6DA1F13D288000CF19F /* ixStockUITests.swift */; };
+		2AB292941F166FE700848720 /* Stock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB292931F166FE700848720 /* Stock.swift */; };
+		2AB3487F1F1522EB00B8CA61 /* StockService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AB3487E1F1522EB00B8CA61 /* StockService.swift */; };
+		2ABB72B61F17AA9E00B47A9C /* cash_money.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 2ABB72B51F17AA9E00B47A9C /* cash_money.jpeg */; };
+		2ABB72B81F17AE0B00B47A9C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2ABB72B71F17AE0B00B47A9C /* GoogleService-Info.plist */; };
+		DB41A5AE6DA99E0FFD4C7903 /* Pods_ixStock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FC5B568399CE5DF8B2325CB /* Pods_ixStock.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,13 @@
 		2A8BC6D61F13D288000CF19F /* ixStockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ixStockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A8BC6DA1F13D288000CF19F /* ixStockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ixStockUITests.swift; sourceTree = "<group>"; };
 		2A8BC6DC1F13D288000CF19F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AB292931F166FE700848720 /* Stock.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stock.swift; sourceTree = "<group>"; };
+		2AB3487E1F1522EB00B8CA61 /* StockService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StockService.swift; sourceTree = "<group>"; };
+		2ABB72B51F17AA9E00B47A9C /* cash_money.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = cash_money.jpeg; sourceTree = "<group>"; };
+		2ABB72B71F17AE0B00B47A9C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		559DBB7820F87C9E36453A32 /* Pods-ixStock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ixStock.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ixStock/Pods-ixStock.debug.xcconfig"; sourceTree = "<group>"; };
+		6FC5B568399CE5DF8B2325CB /* Pods_ixStock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ixStock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B52C891693D5845ACE691EC6 /* Pods-ixStock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ixStock.release.xcconfig"; path = "Pods/Target Support Files/Pods-ixStock/Pods-ixStock.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DB41A5AE6DA99E0FFD4C7903 /* Pods_ixStock.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +94,8 @@
 				2A8BC6CE1F13D288000CF19F /* ixStockTests */,
 				2A8BC6D91F13D288000CF19F /* ixStockUITests */,
 				2A8BC6B81F13D287000CF19F /* Products */,
+				79B4D9F28FAD63B1F261A984 /* Pods */,
+				3877E0C3AFF45C5711AEEF5C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,10 +114,14 @@
 			children = (
 				2A8BC6BA1F13D287000CF19F /* AppDelegate.swift */,
 				2A8BC6BC1F13D287000CF19F /* ViewController.swift */,
+				2AB3487E1F1522EB00B8CA61 /* StockService.swift */,
+				2AB292931F166FE700848720 /* Stock.swift */,
 				2A8BC6BE1F13D287000CF19F /* Main.storyboard */,
+				2ABB72B51F17AA9E00B47A9C /* cash_money.jpeg */,
 				2A8BC6C11F13D287000CF19F /* Assets.xcassets */,
 				2A8BC6C31F13D287000CF19F /* LaunchScreen.storyboard */,
 				2A8BC6C61F13D288000CF19F /* Info.plist */,
+				2ABB72B71F17AE0B00B47A9C /* GoogleService-Info.plist */,
 			);
 			path = ixStock;
 			sourceTree = "<group>";
@@ -125,6 +144,23 @@
 			path = ixStockUITests;
 			sourceTree = "<group>";
 		};
+		3877E0C3AFF45C5711AEEF5C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6FC5B568399CE5DF8B2325CB /* Pods_ixStock.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		79B4D9F28FAD63B1F261A984 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				559DBB7820F87C9E36453A32 /* Pods-ixStock.debug.xcconfig */,
+				B52C891693D5845ACE691EC6 /* Pods-ixStock.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +168,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2A8BC6DF1F13D288000CF19F /* Build configuration list for PBXNativeTarget "ixStock" */;
 			buildPhases = (
+				14650E5B3364F288B7E9132A /* [CP] Check Pods Manifest.lock */,
 				2A8BC6B31F13D287000CF19F /* Sources */,
 				2A8BC6B41F13D287000CF19F /* Frameworks */,
 				2A8BC6B51F13D287000CF19F /* Resources */,
+				5C49E77E36A60A2D6A45A526 /* [CP] Embed Pods Frameworks */,
+				F6BB9B3838EA024B0C868AAA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -233,6 +272,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A8BC6C51F13D287000CF19F /* LaunchScreen.storyboard in Resources */,
+				2ABB72B61F17AA9E00B47A9C /* cash_money.jpeg in Resources */,
+				2ABB72B81F17AE0B00B47A9C /* GoogleService-Info.plist in Resources */,
 				2A8BC6C21F13D287000CF19F /* Assets.xcassets in Resources */,
 				2A8BC6C01F13D287000CF19F /* Main.storyboard in Resources */,
 			);
@@ -254,12 +295,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		14650E5B3364F288B7E9132A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5C49E77E36A60A2D6A45A526 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ixStock/Pods-ixStock-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F6BB9B3838EA024B0C868AAA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ixStock/Pods-ixStock-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2A8BC6B31F13D287000CF19F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				2A8BC6BD1F13D287000CF19F /* ViewController.swift in Sources */,
+				2AB3487F1F1522EB00B8CA61 /* StockService.swift in Sources */,
+				2AB292941F166FE700848720 /* Stock.swift in Sources */,
 				2A8BC6BB1F13D287000CF19F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +503,7 @@
 		};
 		2A8BC6E01F13D288000CF19F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 559DBB7820F87C9E36453A32 /* Pods-ixStock.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ixStock/Info.plist;
@@ -424,6 +516,7 @@
 		};
 		2A8BC6E11F13D288000CF19F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B52C891693D5845ACE691EC6 /* Pods-ixStock.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ixStock/Info.plist;
@@ -507,6 +600,7 @@
 				2A8BC6E11F13D288000CF19F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2A8BC6E21F13D288000CF19F /* Build configuration list for PBXNativeTarget "ixStockTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +609,7 @@
 				2A8BC6E41F13D288000CF19F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2A8BC6E51F13D288000CF19F /* Build configuration list for PBXNativeTarget "ixStockUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +618,7 @@
 				2A8BC6E71F13D288000CF19F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
